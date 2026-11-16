@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-const WHATSAPP_TOKEN = 'EAAeqtJAQcc4BTBMHmZCPHDiYeZAGLXRvUEg0PFIwCDXjpcvJoZB02eT8AKMfOZAmHwU5X15wk5u6eNPydxjlZBjU78oXqvOqLfFFMVR6o3TJbrkdn0xhMpEkVXSMGBLj0ODw3y8EFtlPf9vQhp7ZCsd2wRZBNjh1LTitcZADuSi57VmXizGyTuX1NBdEacMWHQZDZD';
+const WHATSAPP_TOKEN = 'EAAeqtJAQcc4BTESuqXVAmZA3PqEM4bdCLjadzhBQkbFXwfxQkCjwNpzIc8IkSFo6XekNtHjZAfkZBZCfZBVqVBFHgshGQH2gaugkrPFrMsCVZB0Lh526r2uGtLyW0zwixff29DOeQ8o5eZAOPX43ODNvgKOC5UsytPKVPy6hBNx9buVoE8awWYMPC4oZAKGzuwZDZD';
 const PHONE_NUMBER_ID = '627534530447292';
 
 const userSessions = {};
