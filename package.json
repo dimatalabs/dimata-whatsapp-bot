@@ -1,13 +1,14 @@
 {
   "name": "dimata-whatsapp-bot",
   "version": "1.0.0",
-  "description": "WhatsApp Bot",
+  "description": "WhatsApp Business Bot",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2"
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
   }
 }
